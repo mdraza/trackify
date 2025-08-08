@@ -69,7 +69,7 @@ function CreateBudget({ refreshData }) {
                 >
                   {emojiIcon}
                 </Button>
-                <span className="absolute z-10">
+                <span className="absolute z-10 left-[15px] top-[120px]">
                   <EmojiPicker
                     open={openEmojiPicker}
                     onEmojiClick={(e) => {
